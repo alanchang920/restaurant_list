@@ -30,11 +30,11 @@ cd restaurant_list
 ```
 npm i
 ```
-### 4. project implement
+### 4. start server
 ```
 npm run dev 
 ```
 ### 5. project start 
 ```
-http://localhost:3000
+Express is listening on http://localhost:3000
 ```
