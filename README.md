@@ -1,20 +1,28 @@
 # Restaurant_List
 
-![Image](https://github.com/alanchang920/restaurant_list/blob/main/restaurant%20list.png)
+![Image](https://raw.githubusercontent.com/alanchang920/restaurant_list/main/restaurant%20list%20pic1.png)
 
-![Image](https://github.com/alanchang920/restaurant_list/blob/main/restaurant%20information.png)
+![Image](https://raw.githubusercontent.com/alanchang920/restaurant_list/main/restaurant%20list%20pic2.png)
 
 ## Features
 * Users can see all the restaurants and their information on the homepage
 * Users can click in to see the detailed information of the restaurant
 * Users can find a specific restaurant by searching the name of restaurant or category of restaurant
+* Users can edit and delete restaurants.
 
 ## Environment 
 * Node.js
+
+## Database required
+* MongoDB
   
 ## Packages
+* npm
 * express
 * express-handlebars
+* Mongoose
+* Body-parser
+* Nodemon
 
 ## Install
 
@@ -30,11 +38,15 @@ cd restaurant_list
 ```
 npm i
 ```
-### 4. start server
+### 4. Store seed data into your mongoDB
+```
+npm run seed
+```
+### 5. start server
 ```
 npm run dev 
 ```
-### 5. project start 
+### 6. project start 
 ```
 Express is listening on http://localhost:3000
 ```
